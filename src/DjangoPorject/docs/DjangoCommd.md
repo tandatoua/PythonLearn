@@ -35,4 +35,12 @@
     we can use get_object_or_404 function  to take a Django models as its first argument and an arbitrary number of keyword which it passes to the get() function of the model's manager.
     from django.shorcuts import get_object_or_404
     get_object_or_404(Question, pk = question_id)
-
+### 10、Removing hardcoded URLs in templates
+    specifics/
+### 11、form
+    The HTML have <form> element in the template.
+### 12、Automated testing
+    checking that it seems to work.
+    A conventional place for an application's tests is in the applicaktion's test.py file,the testing system will automatically find tests in any file whose name begins with test.
+### 13、Static files
+### 14、 Customize the admin form
